@@ -153,6 +153,7 @@ a:focus {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+  display: block;
 }
 .hero-btn:hover {
   background-color: #404bbf;
