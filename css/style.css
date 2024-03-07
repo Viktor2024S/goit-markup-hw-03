@@ -73,7 +73,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px;
+  padding: 24px 0;
   display: block;
 }
 
@@ -287,40 +287,6 @@ a.footer-link {
   color: #f4f4fd;
 }
 
-/* .end {
-  background-color: #2e2f42;
+img {
+  display: block;
 }
-.end-link {
-}
-.link-span-end {
-}
-.end-text {
-} */
-
-/* .footer {
-  background-color: #2e2f42;
-}
-.footer-link {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-.footer-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
-.link-span-footer {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #f4f4fd;
-} */
