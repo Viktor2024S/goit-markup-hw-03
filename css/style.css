@@ -131,8 +131,8 @@ a:focus {
 
 .hero {
   background: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  /* padding-top: 188px;
+  padding-bottom: 188px; */
 }
 
 .hero-title {
@@ -142,6 +142,7 @@ a:focus {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
 }
 
 .hero-btn {
