@@ -65,6 +65,8 @@ ol {
 .header-menu-list {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-item {
@@ -74,8 +76,8 @@ ol {
   letter-spacing: 0.02em;
   color: #2e2f42;
   display: block;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 
 .header-menu-link {
