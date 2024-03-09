@@ -75,15 +75,11 @@ ol {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
 }
 
 .header-menu-list {
   display: flex;
   gap: 40px;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
 }
 
 .header-menu-item {
@@ -93,8 +89,6 @@ ol {
   letter-spacing: 0.02em;
   color: #2e2f42;
   display: block;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
 }
 
 .team-member {
@@ -112,8 +106,6 @@ ol {
 }
 .header-menu-link {
   color: #2e2f42;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
 }
 .first-link {
   padding-top: 24px;
@@ -310,10 +302,6 @@ a:focus {
   background-color: #ffffff;
 }
 
-/* .team-member-info {
-  padding: 32px 0; 
-} */
-
 .team-item img {
   width: 100%;
   border-radius: 4px;
@@ -350,6 +338,8 @@ a:focus {
 /* ===========MAIN============== */
 /* ===========4-PORTFOLIO============== */
 .portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .portfolio-title {
   font-weight: 700;
