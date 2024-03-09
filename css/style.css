@@ -186,6 +186,10 @@ a:focus {
   padding: 120px 0;
 }
 
+.feature-title {
+  margin-bottom: 8px;
+}
+
 .features-list {
   display: flex;
   gap: 24px;
@@ -193,10 +197,6 @@ a:focus {
 
 .features-item {
   width: calc((100% - 72px) / 4);
-}
-
-.feature-title {
-  margin-bottom: 8px;
 }
 
 .features-item-title {
