@@ -217,7 +217,7 @@ a:focus {
 
 /* ===========MAIN============== */
 /* ===========3-TEAM============== */
-.team {
+/* .team {
   background-color: #f4f4fd;
 }
 
@@ -257,8 +257,66 @@ a:focus {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+} */
+/* ---------------------------------------------------- */
+
+.team {
+  padding: 120px 0; /* Додаємо верхній і нижній відступи */
+  background-color: #f4f4fd; /* Залишаємо колір тла, як вказано */
 }
 
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px; /* Додаємо нижній відступ до заголовка */
+}
+
+.team-list {
+  display: flex;
+  gap: 24px; /* Встановлюємо відступи між елементами списку */
+}
+
+.team-item {
+  width: calc(
+    (100% - 3 * 24px) / 4
+  ); /* Визначаємо ширину для елементів списку */
+  border-radius: 0px 0px 4px 4px; /* Застосовуємо заокруглення кутів внизу */
+  background-color: #ffffff; /* Залишаємо колір фону */
+}
+
+.team-item img {
+  width: 100%; /* Забезпечуємо, щоб зображення були на всю ширину елемента */
+  border-radius: 4px; /* Заокруглення кутів зображень */
+}
+
+.team-list-title,
+.team-list-text {
+  text-align: center; /* Текст заголовка і опису вирівняно по центру */
+}
+
+.team-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px; /* Додаємо відступ між заголовком і текстом */
+}
+
+.team-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455; /* Стиль для тексту під заголовком */
+}
+
+/* ----------------------------------------------------- */
 /* ===========MAIN============== */
 /* ===========4-PORTFOLIO============== */
 .portfolio {
