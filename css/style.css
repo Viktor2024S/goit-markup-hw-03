@@ -278,29 +278,28 @@ a:focus {
 
 .team-list {
   display: flex;
-  gap: 24px; /* Встановлюємо відступи між елементами списку */
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
 .team-item {
-  width: calc(
-    (100% - 3 * 24px) / 4
-  ); /* Визначаємо ширину для елементів списку */
-  border-radius: 0px 0px 4px 4px; /* Застосовуємо заокруглення кутів внизу */
-  background-color: #ffffff; /* Залишаємо колір фону */
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
 }
 
-.team-member-info {
-  padding: 32px 0; /* Відступи всередині блоку з інформацією про члена команди */
-}
+/* .team-member-info {
+  padding: 32px 0; 
+} */
 
 .team-item img {
-  width: 100%; /* Забезпечуємо, щоб зображення були на всю ширину елемента */
-  border-radius: 4px; /* Заокруглення кутів зображень */
+  width: 100%;
+  border-radius: 4px;
 }
 
 .team-list-title,
 .team-list-text {
-  text-align: center; /* Текст заголовка і опису вирівняно по центру */
+  text-align: center;
 }
 
 .team-list-title {
@@ -309,7 +308,10 @@ a:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px; /* Додаємо відступ між заголовком і текстом */
+  margin-bottom: 8px;
+  text-align: center;
+  padding: 32px 0;
+  margin-bottom: 8px;
 }
 
 .team-list-text {
@@ -317,7 +319,9 @@ a:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455; /* Стиль для тексту під заголовком */
+  color: #434455;
+  text-align: center;
+  padding: 32px 0;
 }
 
 /* ----------------------------------------------------- */
