@@ -95,6 +95,19 @@ ol {
   padding-bottom: 24px; */
 }
 
+.team-member {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.team-list-title {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-list-text {
+  text-align: center;
+}
 .header-menu-link {
   color: #2e2f42;
 }
