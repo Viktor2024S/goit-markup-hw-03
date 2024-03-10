@@ -203,6 +203,8 @@ a:focus {
   color: #fff;
   max-width: 496px;
   text-align: center;
+  /* center + margin-bottom: 48px - to button*/
+  margin: 0 auto 48px;
 }
 
 .hero-btn {
@@ -219,6 +221,8 @@ a:focus {
   border: none;
   background-color: #4d5ae5;
   border-radius: 4px;
+  /* center */
+  margin: 0 auto;
 }
 .hero-btn:hover {
   background-color: #404bbf;
