@@ -125,19 +125,6 @@ ol {
   display: block;
 }
 
-.team-member {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.team-list-title {
-  text-align: center;
-  margin-bottom: 8px;
-}
-
-.team-list-text {
-  text-align: center;
-}
 .header-menu-link {
   color: #2e2f42;
 }
@@ -191,15 +178,21 @@ a:focus {
 /* ===========1-HERO============== */
 
 .hero {
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  align-self: center; */
+
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
 }
 
-.hero .container {
+/* .hero .container {
   text-align: center;
-}
+} */
 
 .hero-title {
   font-weight: 700;
@@ -305,9 +298,9 @@ a:focus {
   border-radius: 4px;
 }
 
-.team-list-title,
-.team-list-text {
-  text-align: center;
+.team-member {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-list-title {
@@ -330,6 +323,7 @@ a:focus {
   color: #434455;
   text-align: center;
   padding: 32px 0;
+  margin-bottom: 8px;
 }
 
 /* ===========MAIN============== */
@@ -411,9 +405,9 @@ img {
   display: block;
 }
 
-.hero .container {
+/* .hero .container {
   text-align: center;
-}
+} */
 
 .hero-title {
   font-weight: 700;
@@ -423,7 +417,6 @@ img {
   text-align: center;
   color: #fff;
   max-width: 496px;
-  text-align: center;
 }
 
 .hero-btn {
