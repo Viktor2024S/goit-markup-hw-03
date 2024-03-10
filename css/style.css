@@ -224,6 +224,7 @@ a:focus {
   /* center */
   margin: 0 auto;
 }
+
 .hero-btn:hover {
   background-color: #404bbf;
 }
@@ -412,38 +413,6 @@ img {
 /* .hero .container {
   text-align: center;
 } */
-
-.hero-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
-  max-width: 496px;
-}
-
-.hero-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  background-color: #4d5ae5;
-  cursor: pointer;
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  background-color: #4d5ae5;
-  border-radius: 4px;
-}
-.hero-btn:hover {
-  background-color: #404bbf;
-}
-.hero-btn:focus {
-  background-color: #404bbf;
-}
 
 /* ===========MAIN============== */
 /* ===========2-FEATURES============== */
