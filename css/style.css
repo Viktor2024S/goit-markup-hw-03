@@ -4,6 +4,40 @@ body {
   background-color: #fff;
 }
 
+/* NORMALIZE */
+
+/* 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+} 
+*/
+
 h1,
 h2,
 h3,
@@ -21,7 +55,7 @@ a {
 
 ul,
 ol {
-  text-decoration: none;
+  list-style: none;
   padding: 0;
   margin: 0;
   /* margin-bottom: 0;
@@ -231,7 +265,9 @@ a:focus {
 
 /* ===========MAIN============== */
 /* ===========3-TEAM============== */
-/* .team {
+
+.team {
+  padding: 120px 0;
   background-color: #f4f4fd;
 }
 
@@ -243,51 +279,7 @@ a:focus {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-}
-
-.team-list {
-}
-
-.team-item {
-  background-color: #ffffff;
-}
-
-.team-list-image {
-}
-
-.team-list-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
-
-.team-list-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #434455;
-} */
-/* ---------------------------------------------------- */
-
-.team {
-  padding: 120px 0; /* Додаємо верхній і нижній відступи */
-  background-color: #f4f4fd; /* Залишаємо колір тла, як вказано */
-}
-
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
-  color: #2e2f42;
-  margin-bottom: 72px; /* Додаємо нижній відступ до заголовка */
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -334,7 +326,6 @@ a:focus {
   padding: 32px 0;
 }
 
-/* ----------------------------------------------------- */
 /* ===========MAIN============== */
 /* ===========4-PORTFOLIO============== */
 .portfolio {
@@ -385,7 +376,6 @@ a:focus {
 }
 
 /* ===========FOOTER============== */
-
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
