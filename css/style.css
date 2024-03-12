@@ -4,40 +4,20 @@ body {
   background-color: #fff;
 }
 
-/* NORMALIZE */
-
-/* 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-ul {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-address {
-  font-style: normal;
-} 
-*/
-
+/* ========NORMALIZE=========== */
 h1,
 h2,
 h3,
@@ -63,21 +43,7 @@ ol {
   padding-left: 0; */
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 /* ========HEADER=========== */
-
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -96,8 +62,6 @@ ol {
 .header-navigation {
   display: flex;
   align-items: center;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
 }
 
 .header-logo {
@@ -178,23 +142,12 @@ a:focus {
 
 /* ===========MAIN============== */
 /* ===========1-HERO============== */
-
 .hero {
-  /* display: flex; */
-  /* align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  align-self: center; */
-
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
 }
-
-/* .hero .container {
-  text-align: center;
-} */
 
 .hero-title {
   font-weight: 700;
@@ -205,7 +158,6 @@ a:focus {
   color: #fff;
   max-width: 496px;
   text-align: center;
-  /* center + margin-bottom: 48px - to button*/
   margin: 0 auto 48px;
 }
 
@@ -223,7 +175,6 @@ a:focus {
   border: none;
   background-color: #4d5ae5;
   border-radius: 4px;
-  /* center */
   margin: 0 auto;
 }
 
@@ -284,7 +235,6 @@ a:focus {
 
 /* ===========MAIN============== */
 /* ===========3-TEAM============== */
-
 .team {
   padding: 120px 0;
   background-color: #f4f4fd;
@@ -331,7 +281,6 @@ a:focus {
   color: #2e2f42;
   margin-bottom: 8px;
   text-align: center;
-  /* padding: 32px 0; */
   margin-bottom: 8px;
   text-align: center;
 }
@@ -343,8 +292,6 @@ a:focus {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
-  /* padding: 32px 0; */
-  /* margin-bottom: 8px; */
   text-align: center;
 }
 
@@ -377,7 +324,6 @@ a:focus {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  /* margin-bottom: 8px; */
 }
 .portfolio-item-image {
 }
@@ -427,7 +373,3 @@ a.footer-link {
 img {
   display: block;
 }
-
-/* .hero .container {
-  text-align: center;
-} */
